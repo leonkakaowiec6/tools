@@ -1,4 +1,5 @@
 #!/bin/sh
+# https://stackoverflow.com/a/30737248
 
 git filter-branch --env-filter '
 OLD_EMAIL="old@my.email.com"
